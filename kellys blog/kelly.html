@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/kelly.css">
+    <script src="css/kelly.js"></script>
+    <title>kellys-blog</title>
+</head>
+
+<body  onload="myFunction()">
+
+    <!-- HEADER SECTION STARTS HERE -->
+        <!-- NAV BAR SECTION  -->
+    <nav class="navbar navbar-expand-md  ">
+        <!-- Brand -->
+        <a class="navbar-brand" href="kelly.html"><span class="logo1">K</span>ELLY</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+          <span class="navbar-toggler-icon">
+            <svg width="25" height="25">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="3"/>
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="3"/>
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="3"/>
+                </svg>
+          </span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <div class="first">
+            <!-- BUTTON TAG FOR EACH NAV DIV -->
+            
+            
+            <button  class="tablink" onclick="openPage('Home', this, )">Home</button>          
+           <button  class="tablink" onclick="openPage('Resources',this, )"id="defaultOpen">Resources</button>
+            <button class="tablink" onclick="openPage('About', this, )">About</button>
+            
+        
+            <!-- BUTTON TAG FOR NAV-DIV -->
+            </div>
+        </div>
+    </nav>
+    
+    <!-- HEADER SECTION ENDS HERE  -->
+
+
+    <!-- HOME MAIN SECTION   STARTS HERE-->
+
+    <div id="Home" class="tabcontent">
+                
+              <!-- new nav div -->
+
+          <!-- <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"href="#"alt="">Projects</a> 
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div> -->
+
+        <!-- HEADER / JUMBOTRON -->
+            <div class="jumbotron">
+                <p class="p1"><span class="logo2">K</span>ELLY'S BLOG-LIFE</p>
+                <br>
+                <p class="p2">Welcome to 
+                <span class="p3">Kelly's world</span> </p>
+            </div>
+
+        <!--SECTION 1 FASHION BLOG  -->
+            <div class="main2">
+                <div id="main2text"> 
+                        <!-- <h1 id="kelly-fas">Kelly's</h1> -->
+                        <h1 id="fashion">HAPPY BIRTHDAY</h1>
+                            <div class="sub">
+                                <button id="sub1">Emmanuel</button>
+                            </div>  
+                </div>
+            </div>
+
+    <!-- SECTION 2 MAIN SECTION HOLDING TWO DIV SECTION -->
+            <div class="general">
+                        <!-- SECTION 2 SUB DIV MAIN SECTION -->
+                    <div class="mainbar">
+                        <div class="title">
+                            <h3 class="title1"> kids on adventures </h3>
+            
+                            <p class="title2">Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+                            <img src="img/kids.png" alt="girl_hat.jpg"> 
+                                
+                            <p id="p1"> 
+                            send your kid on vaccations with their favourite charcters and make the feel loved its always an intersting trip getting to experience first hand virtual reality for kids space time, and coding section and so many sport engagement a wonderful experience thats with live for a life time.
+                            </p> 
+
+                        </div>
+
+                        <div class="title">
+                            <h3 class="title1"> Branding</h3>
+            
+                            <p class="title2"> we help you get you business or organization started by making a whole difference from what it use to be to what it should actually be!!</p>
+                            <img src="img/pic1.png" alt="girl_hat.jpg"> 
+                                
+                        <p id="p1"> 
+                        branding is a very important segment for every business to undergo it help build your business from the offline to the online world been well know for quality and also been best know get and engaging audience with good online experience also side some social media handle usage .
+                        </p>
+
+                        </div>
+
+                        <div class="title">
+                            <h3 class="title1"> web developers corner</h3>
+            
+                            <p class="title2">we know what you need and thats why we've got fine web developers developing great and unique amazing, Interative and Exciting Web pages for all user from scracth and makes coding alot easier and fun we are glad to welcome you... </p>
+                            <img src="img/dev2.jpeg" alt=""> 
+                                
+                        <p id="p1"> 
+                            we developer / create amazing, Interative and Exciting Web pages for all user both Adriod ipad ipod Tablets and Desktop view we build interactive Web pages from scracth for your Personal Enterprise and Company.
+                        </p> 
+                        
+                    </div>
+
+
+
+                        <div class="title">
+                                <h3 class="title1">Projects </h3> 
+
+                            <div class="project-img">
+                                <img src="img2/shelters.PNG" alt="">
+                                <img src="img2/code.PNG" alt="">
+                            </div>
+
+                            <div class="project-img">
+                                <img src="img2/devc.PNG" alt="">
+                                <img src="img2/icemaven.PNG" alt="">
+                            </div>
+                                
+                            <div class="project-img">
+                                <img src="img2/ighub.PNG" alt="">
+                                <img src="img2/jamb.PNG" alt="">
+                            </div>
+
+                            <div class="project-img">
+                                <img src="img2/zillow.PNG" alt="">
+                                <img src="img2/jamb1.PNG" alt="">
+                            </div> 
+                        </div> 
+
+                    
+                    </div>
+                            
+                    <!-- SECTION 2 SUB DIV SIDE BAR SECTION -->
+
+                <div class="main-sidebar">
+
+                        <div class="sidebar">
+                            <img src="img/kids-tab.jpg" alt="">
+                            
+                            <p id="myname"><b>kids on adventures</b>
+                                    <br> <br>
+                                    
+                                    Send kids on adventures with their 
+                                    <br>
+                                    favorite characters in a space made 
+                                    just for them—free with your membership.
+                            </p>
+                            </div>
+                            
+                    <div class="sidebar">
+                            <img src="img/Capture11.PNG" alt="">
+                                    
+                            <p id="myname"><b>Branding</b>
+                                        <br> <br>
+                                        
+                                        we help you get you business or organization started 
+                                        <br>
+                                        by making a whole difference from what it use to be to what it should actually be!!
+                            </p>
+                    </div>
+
+                    <div class="sidebar">
+                                <img src="img/Capture1.PNG" alt="">
+                                
+                            <p id="myname"><b>Branding</b>
+                                    <br> <br>
+                                    branding is a very important segment for every business to undergo it help build your business from the offline to the online world been well know for quality and also been best known gaining and engaging audience
+                             </p>
+                    </div>  
+
+                    <div class="sidebar">
+                                <img src="img/Capture3.PNG" alt="">
+                                
+                            <p id="myname"><b>Branding</b>
+                                    <br> <br>
+                                    
+                                    we help you get you business or organization started 
+                                    by making a whole difference from what it use to be to what it should actually be!!
+                            </p>
+                    </div>
+
+                    <div class="sidebar">
+                                <img src="img/dev1.jpeg" alt="">
+                                
+                            <p id="myname"><b>coding</b>
+                                    <br> <br>
+                                    we developer / create amazing, Interative and Exciting Web pages
+                                    for all user both Adriod ipad ipod Tablets and 
+                                    Desktop view we build interactive Web pages from scracth 
+                                    for your Personal Enterprise and Company..
+                            </p>
+                    </div>
+
+                    <div class="sidebar">
+                                <img src="img/dev3.jpeg" alt="">
+                                
+                            <p id="myname"><b>Have The Time?</b>
+                                    <br> <br>
+                                
+                                    The launch of this capability opens the door to more asset transformations and other functionality down the line, and we’re excited to see what you’ll build and how you’ll use it.
+                            </p>
+                    </div>
+
+                    <div class="sidebar">
+                                <img src="img/devs.jpeg" alt="">
+                                
+                            <p id="myname"><b>Have The Time?</b>
+                                    <br> <br>
+                                lets exploring the universe of 
+                                uknownment.  The launch of this capability opens the door to more asset transformations and other functionality down the line.
+                            </p>
+                    </div>
+
+                    <div class="sidebar">
+                            <img src="img2/shelters.PNG" alt="">
+                            
+                        <p id="myname"><b>web developers</b>
+                                <br> <br>
+                                D-Kellys is everything you need to build fast, modern websites:
+                                continuous deployment, serverless functions, 
+                                and so much more. lets show you around with our previous designed webpage
+                        </p>
+                    </div>
+
+                    
+
+                </div>
+                    
+            </div>
+
+            <!-- SECTION 3 MAIN SECTION / BIRTHDAY CARD -->
+        <div class="general2">
+            <img src="img/kelly.jpg" alt="">
+        
+                
+            <div class="birthday-text">
+                
+                <h1 class="birthday"><i>Emmanuel kelechi okpani</i></h1>
+                <p class="birthday-p">
+                    <i>
+                        Happy birthday to one our finest web developer, and Digital marketing strategist,
+                        a tech activist filled with so much love for tech and its enhancement a lover of music and movies. 
+                    </i>
+                    <br>
+                    <i>
+                        Emmanuel kelechi okpani is a young single vibrant individual with a good heart,He Graduated from the department of Computer science in Abia State Polytechnic Abia State,
+                        He is a front End web developer, a Digital marketer and tech activist that is dedicated in supporting the rising of tech ecosystem in africa. devloping  interactive and responsive web page for Business, industries, Personal use, He is also a  Good Digital marketing with nice digital marketing strategy for business growth. 
+                    </i>
+                </p>
+
+                <h1 class="birthday"><i>Happy Birthday </i></h1> 
+                <p id="birthdaytime"></p>
+                <P>Hey!! check these out</P>
+            </div>
+
+        </div>
+
+         <!-- FOOTER / UL TAGS -->
+         <footer>
+            <section class="footer">
+                <ul class="col-sm-4">
+                    <h4>Office</h4>
+                    <li>Gariki, estate</li>
+                    <br> <br>
+                    <li>Gariki,</li>
+                    <li>Abuja</li>
+                    <li>Nigeria</li>
+                    <br> <br>
+                    <h4>Connected</h4>
+                </ul>
+                
+                <ul class="col-sm-4">
+                    <h4>Useful links</h4>
+                    <li>About Us</li>
+                    <br>
+                    <li>HR service for </li>
+                    <li>SMEs/Businesses</li>
+                    <br>
+                    <h4>Contact Us</h4>
+                    <li>Resource</li>
+                    <li>HR service for Jobseekers & Employees Contact Us
+                    </li>
+                </ul>
+
+
+                <ul class="col-sm-4">
+                    <h4>For Employers</h4>
+                    <li>+234 703 702 6986</li>
+                    <li>info@kellys-blog.com</li>
+                    <br> <br>
+                    <h4>For Employees</h4>
+                    <li>+234 815 729 0561</li>
+                    <li>info@kellys-blog.com</li>
+                </ul>
+            </section>
+                
+                <div class="socials">
+                    <a href="https://www.facebook.com/profile.php?id=100068787873158"><img src="./socials/fb.png"  alt=""></a>
+                    <a href="https://www.instagram.com/kelz_emmmanuel/"><img src="./socials/IG.png"  alt=""></a>
+                    <a href="https://www.linkedin.com/in/emmanuelokpani/"><img src="./socials/INL.png"  alt=""></a>
+                    <a href="https://twitter.com/kelly_B_Q/status/1346845460019949568?s=19"><img src="./socials/twt.png"  alt=""></a>
+                </div>
+                <p class="copyright">© 2021 KELLYS-BLOG, All Rights Reserved.
+                    <br>
+                    Powered By Emmanuel kelechi Okpani </p>
+                     
+        </footer>
+   
+    </div>
+
+         <!-- HOME MAIN SECTION ENDS HERE -->
+            
+
+<!--  RESOURCES MAIN SECTION -->
+    <div id="Resources" class="tabcontent">
+
+        <!-- RESOURCES// SECTION 1 / JUMBOTRON -->
+        <div class="jumbotron_1">
+            <p class="p1"><span class="logo2">K</span>ELLY'S BLOG-LIFE</p>
+            <br>
+            <p class="p2">Welcome to
+            <span class="p3">Kelly's world</span> </p>
+        </div>
+            <!-- SECTON 1 / SUB HEADER -->
+
+        <div class="container-fluid main1">
+            <div class="header-content">
+                <div class="header-content1">
+
+                    <div class="header-content-text">
+                     
+                      <h1 class="h1top">One workflow.<br>
+                          From local development<br>
+                          to global deployment.
+                      </h1>
+    
+                      <p class="ptop mt-4">D-Kellys is everything you need to build fast, modern websites: <br> 
+                        continuous deployment, serverless functions, and so much more. lets show you around with screenshots from our previous already designed webpage </p>
+                        <br>
+    
+                        <a href="#" class="btn  mt-2">Get Started for Free</a> <br>
+                          <a href="#" class="question ">Questions? Talk to an expert </a>
+                    </div>
+
+                    <div class="header-content-pic">
+                        <img src="img/kelly.jpg" alt="">
+                    </div>
+                
+                </div>
+            </div>
+          </div>
+
+          <!-- RESOURCES// SECTION 2  -->
+
+        <div class="title">
+            
+            <div class="project-img">
+                <img src="img2/shelters.PNG" alt="">
+                <img src="img2/code.PNG" alt="">
+            </div>
+
+            <div class="project-img">
+                <img src="img2/devc.PNG" alt="">
+                <img src="img2/icemaven.PNG" alt="">
+            </div>
+                
+            <div class="project-img">
+                <img src="img2/ighub.PNG" alt="">
+                <img src="img2/jamb.PNG" alt="">
+            </div>
+
+            <div class="project-img">
+                <img src="img2/zillow.PNG" alt="">
+                <img src="img2/jamb1.PNG" alt="">
+            </div> 
+        </div> 
+
+        <footer>
+            <section class="footer">
+                <ul class="col-sm-4">
+                    <h4>Office</h4>
+                    <li>Gariki, estate</li>
+                    <br> <br>
+                    <li>Gariki,</li>
+                    <li>Abuja</li>
+                    <li>Nigeria</li>
+                    <br> <br>
+                    <h4>Connected</h4>
+                </ul>
+                
+                <ul class="col-sm-4">
+                    <h4>Useful links</h4>
+                    <li>About Us</li>
+                    <br>
+                    <li>HR service for </li>
+                    <li>SMEs/Businesses</li>
+                    <br>
+                    <h4>Contact Us</h4>
+                    <li>Resource</li>
+                    <li>HR service for Jobseekers & Employees Contact Us
+                    </li>
+                </ul>
+
+
+                <ul class="col-sm-4">
+                    <h4>For Employers</h4>
+                    <li>+234 703 702 6986</li>
+                    <li>info@kellys-blog.com</li>
+                    <br> <br>
+                    <h4>For Employees</h4>
+                    <li>+234 815 729 0561</li>
+                    <li>info@kellys-blog.com</li>
+                </ul>
+            </section>
+            <p class="copyright">© 2021 KELLYS-BLOG, All Rights Reserved.
+                <br>
+                Powered By Emmanuel kelechi Okpani </p>   
+                <div class="socials">
+                    <a href=""><img src="./socials/fb.png"  alt=""></a>
+                    <a href=""><img src="./socials/IG.png"  alt=""></a>
+                    <a href=""><img src="./socials/INL.png"  alt=""></a>
+                    <a href=""><img src="./socials/twt.png"  alt=""></a>
+                </div>
+                     
+        </footer>
+
+
+
+    </div>
+
+    <!-- RESOURCES MAIN SECTION ENDS HERE -->
+
+
+
+    <!-- ABOUT MAIN SECTION  STARTS HERE-->
+
+    <div id="About" class="tabcontent">
+
+        <div class="About-header">
+            <div class="About-text1">
+                <h4>WHO WE ARE</h4>
+                <p>We are a team of dedicated I.T professionals offering pragmatic and
+                        <br>
+                    cost-effective solutions to websites creation, Digital conselling and career challenges, tailored to meet business and people needs.</p>
+                <br>
+                <h4>Solutions for SMEs/Businesses:</h4>
+                    <p>We partner majorly with Micro, Small and Medium Scale Enterprises to manage their most vital asset - their people, to ensure productivity and organizational growth. Our support covers the employee life cycle-from recruitment through to exit.
+                        <br> <br>
+                        
+                    If you are looking for a better way to handle the growing needs of your small business or you wish to push your business online – even though you know how important this things are, then kellys-blog is the right place for you.</p>
+                            <br> <br>
+                    <i>That is why we are Business Focused and People Driven .</i>
+                        <br>
+                        <a href="">Click here to Learn More About Us</a>
+            </div>
+    
+
+            <div class="About-pic1">
+                <img src="img/dev1.jpeg" alt="">
+            </div>
+    
+        </div>
+
+        
+        <div class="Solution-approach">
+
+                <div class="solution-sub2">
+                   
+                    <div class="angle">
+                        <img src="socials/challenge.png" alt="">
+                        <h5> <span>01-</span> I-dentify your challenges. </h5>
+                    </div>
+                    <div class="angle">
+                        <img src="socials/commit.png" alt="">
+                        <h5> <span>02-</span>C-ommit with D-kelly(s).</h5>
+                    </div>
+                    <div class="angle">
+                        <img src="socials/execute.png" alt="">
+                        <h5> <span>03-</span>  E-xecute with distinction.</h5>
+                    </div>
+                </div>
+
+                <div class="solution-sub1">
+                    <h3>OUR SOLUTION APPROACH</h3> 
+                    <img src="img/footer.jpg" alt="" class="solution">
+                </div>
+
+        </div>
+
+
+
+
+        <footer>
+            <section class="footer">
+                <ul class="col-sm-4">
+                    <h4>Office</h4>
+                    <li>Gariki, estate</li>
+                    <br> <br>
+                    <li>Gariki,</li>
+                    <li>Abuja</li>
+                    <li>Nigeria</li>
+                    <br> <br>
+                    <h4>Connected</h4>
+                </ul>
+                
+                <ul class="col-sm-4">
+                    <h4>Useful links</h4>
+                    <li>About Us</li>
+                    <br>
+                    <li>HR service for </li>
+                    <li>SMEs/Businesses</li>
+                    <br>
+                    <h4>Contact Us</h4>
+                    <li>Resource</li>
+                    <li>HR service for Jobseekers & Employees Contact Us
+                    </li>
+                </ul>
+
+
+                <ul class="col-sm-4">
+                    <h4>For Employers</h4>
+                    <li>+234 703 702 6986</li>
+                    <li>info@kellys-blog.com</li>
+                    <br> <br>
+                    <h4>For Employees</h4>
+                    <li>+234 815 729 0561</li>
+                    <li>info@kellys-blog.com</li>
+                </ul>
+            </section>
+            <p class="copyright">© 2021 KELLYS-BLOG, All Rights Reserved.
+                <br>
+                Powered By Emmanuel kelechi Okpani </p>   
+                <div class="socials">
+                    <a href=""><img src="./socials/fb.png"  alt=""></a>
+                    <a href=""><img src="./socials/IG.png"  alt=""></a>
+                    <a href=""><img src="./socials/INL.png"  alt=""></a>
+                    <a href=""><img src="./socials/twt.png"  alt=""></a>
+                </div>
+                     
+        </footer>
+
+
+    </div>
+
+    <!-- ABOUT MAIN SECTION ENDS HERE -->
+
+    
+
+
+
+</body>
+
+</html>
